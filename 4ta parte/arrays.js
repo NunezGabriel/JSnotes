@@ -30,7 +30,7 @@ let masFrutasInicio = frutas.unshift('durazno')//--> agrega un elemento al inici
 let menosFrutasInicio = frutas.shift()//--> elimina el primer elemento del array
 
 let masFrutaspFuncion = frutas.forEach(agregar)/*esto lo que hace es que por cada elemento del array se ejecute la funcion pasada como parametro 
-en este caso hay cuatro lementos en el array osea se va a ejecutar 4 veces la funcion xd*/
+en este caso hay cuatro elementos en el array osea se va a ejecutar 4 veces la funcion xd*/
 function agregar()
 {
     frutas.push("sandia")
