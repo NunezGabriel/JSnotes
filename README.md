@@ -1,1 +1,1 @@
-# JSbasicnotes
+# JSnotes
