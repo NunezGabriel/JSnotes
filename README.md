@@ -7,6 +7,7 @@
   <li>4taParte: Arrays</li>
   <li>5taParte: Bucles</li>
   <li>6taParte: POO (uncomplete)</li>
+  <li>7maParte: Manipulaion del DOM ⭐️</li>
 </ul>
 
 Estoy haciendo esto prq me gusta tener notas mas estructuradas y espero a alguien aparte de mi le pueda ayudar :)
