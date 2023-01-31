@@ -1,0 +1,76 @@
+:root{
+    --backgroundGod: #008B8B;
+    --backgroundCard:#004953;
+    --whiteletter: rgb(209, 207, 207);
+}
+
+html{
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: var(--backgroundGod);
+}
+.container-general{
+    width: 100%;
+    height: 815px;
+    display: grid;
+    place-items: center;
+}
+.calculator-body{
+    width: 900px;
+    height: 540px;
+    background:var(--backgroundCard);
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    overflow: hidden;
+}
+.title{
+    margin: 0;
+    margin-top: 10px;
+    color: var(--backgroundGod);
+    font-size: 40px;
+    text-align: center;
+}
+.calculator-operations{
+    border-top: 3px solid var(--backgroundGod);
+    text-align: center;
+}
+.text-calculator{
+    margin-top: 40px;
+    color: var(--whiteletter);
+    font-size: 30px;
+}
+.btnC{
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    color: var(--backgroundGod);
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+    background-color: var(--backgroundCard);
+    border: 3px solid var(--backgroundGod);
+    border-radius: 10px ;
+    transition: 1s;
+}
+.btnC:hover{
+    border: 3px solid aquamarine;
+    color: aquamarine;
+}
+#input{
+    height: 30px;
+    background-color: var(--backgroundGod);
+    border: none;
+    border-radius: 5px;
+    color: var(--whiteletter);
+    font-size: 20px;
+    outline: none; /*elimina el borde feo 1ue tiene el input cuando se hace click*/
+}
+#result{
+    color:aquamarine;
+    margin-top: 100px;
+    font-size: 50px;
+}
