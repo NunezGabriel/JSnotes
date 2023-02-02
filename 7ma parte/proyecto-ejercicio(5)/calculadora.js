@@ -9,3 +9,4 @@ function porcent(){
     let porcent = (parseInt(input1.value)/100) * parseInt(input2.value)
     result.innerHTML = `Resultado: ${porcent}`
 }
+ 
