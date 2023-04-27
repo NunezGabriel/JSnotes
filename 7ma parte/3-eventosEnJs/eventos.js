@@ -23,7 +23,7 @@ function onclickFunction(){
     result.innerText = `Resultado: ${sumaInputs}`
 }
 //-----------------------------------------------------
-//FORMA 2 CON ADDEVENTLISTENER TODO DESDE JS    s
+//FORMA 2 CON ADDEVENTLISTENER TODO DESDE JS
 //esta forma es la mas recomendada prq con esta el html queda mas limpio
 const number1 = document.querySelector('#mat1')
 const number2 = document.querySelector('#mat2')
