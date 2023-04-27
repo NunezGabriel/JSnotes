@@ -1,3 +1,20 @@
+//ARRAYS EN JS
+
+////////////////////////////////////////////////////////////////
+
+/*
+Es un elememto de tipo objeto,  es de tipo objeto prq dentro de un array va a tener otros elementos un array puede contener strings, numbers, otros arrays, clases, etc. y su sintaxis es asi:
+
+let frutas = [ ’pera’, ‘manzana’,  ‘platano’, ‘fresa’ ] 
+
+al declarar un array lo hacemos con una varible para poder acceder a los elementos de ese array 
+
+los elemento en un array se numeran desde el cero por lo que pero seria el elemento nro 0, manzana el elemento nro 1 y asi, esto sirve para que al querer acceder a un elemto del array ya sabemos que nro es y asi podremos acceder a el ejmplo: 
+
+console.log ( frutas[2] )  //output: platano
+*/
+
+////////////////////////////////////////////////////////////////
 let frutas = ['pera', 'manzana',  'platano', 'fresa']
 console.log(frutas) // [ 'pera', 'manzana', 'platano', 'fresa' ]
 console.log(frutas[2]) // platano
@@ -94,5 +111,4 @@ A modo de recopilación:
     foreach() : Ejecuta lo que le definamos una vez por cada elemento de nuestro array
     some() : Comprueba si al menos un elemento del array cumple con la condición que le damos
     filter() : Devuelve todos los elementos del array que cumplan con la condición dada
-    Acá te dejo la documentación de cada uno: find() - foreach() - some() - filter()
 */
