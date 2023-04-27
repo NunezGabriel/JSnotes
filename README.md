@@ -1,5 +1,5 @@
 # JSnotes
-## RECUERDA SIEMPRE VER LA DOCUMENTACION YA LAS NOTAS QUE HAY ACA PUEDEN LLEGAR A DESACTUALIZARCE 
+### RECUERDA SIEMPRE VER LA DOCUMENTACION YA LAS NOTAS QUE HAY ACA PUEDEN LLEGAR A DESACTUALIZARCE 
 * <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Template_literals">Link de documentacion oficial de JS</a>
 <h4>En este repositorio tenemos notas con ejercicios de JavaScript aca mas que todo veremos esos conceptos de Js de forma practica para la forma teorica deberas ver las notas de Notion el cual te dejo aca <a href="https://www.notion.so/Curso-de-JavaScript-7a38c1b0efbc42f4bd87141a523c48ff">Notion.JS</a></h4>
 <ul>
