@@ -1,3 +1,14 @@
+//SWITCH EN JS
+
+//////////////////////////////////////////////////////
+/*
+Es otra forma de validar una condicion funciona como if, else y else if con diferente sintaxis funcionando por casos se valida el primer caso si no es vrdd pasa al segundo caso  y si ninguno de los casos son verdad entramos a la etapa default que funciona como nuestro else. Dentro de cada caso tenemos que poner break para que si se cumple no pase al siguiente caso asi es como va la sintaxis: (si no ponemos ese break se valida todo y seria como imprimir todos los mensajes osea no sirve de nada ) 
+
+IMPORTANTE: en switch NO se pueden usar operadores de compracion(=. ===, !=, < > ≤)
+*/
+
+//////////////////////////////////////////////////////
+
 //reto mio: tienda de frutas
 let TipoDeFruta = prompt('ingrese el tipo de fruta: ')
 
