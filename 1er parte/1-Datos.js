@@ -29,6 +29,7 @@ f=[1,2,3,"hola"]//es un array el cual tmb es considerado de tipo objeto
     . Null => cuando un dato no existe
     . Undefined => cuando no se le asigna valor a una variable
     . Boolean => asigna un valor logico/binario True o False
+    . Nan => ...
 
     Tipos de datos de objeto no NO PRIMITIVOS
     . Objetos
