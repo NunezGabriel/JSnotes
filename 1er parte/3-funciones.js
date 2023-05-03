@@ -17,11 +17,11 @@ Las funciones declarativas tienen la siguiente sintaxis:
     } 
 */
 
-function mifuncion(a,b){
+function miFuncion(a,b){
     return a+b
 }
 //Llamado de funcion e impresion en consola 
-console.log(mifuncion(3,9999))//10002
+console.log(miFuncion(3,9999))//10002
 //El 3,99999 que ponemos al llamr la funcion  recibe el nombre de argumento
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -34,7 +34,7 @@ Las funciones de expresión son aquellas que guardamos en una variable, por lo t
         Instrucciones...
     }
 */
-let mmifuncion = function(c,d){
+let mmiFuncion = function(c,d){
     return c+d
 }
 
@@ -80,4 +80,8 @@ console.log(resultado)//-1
 Plantillas literales
 También puedes utilizar las plantillas literales, una nueva característica del lenguaje para utilizar las variables dentro de texto `${variable}` entre las tildes invertidas ( `` ) esto tmb mas adelante sirve para conectar a bases de datos y automatizar tareas,
 console.log ( ` Hola ${nombre} ` )
+*/
+
+/*
+    En Js se usa el camellCase para definir funciones osea minusculaMayusculaMayuscula
 */
