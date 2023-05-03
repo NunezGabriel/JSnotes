@@ -33,6 +33,9 @@ let persona = { //variable de tipo objeto
 }
 console.log(persona.nombre)
 
+let numero1, numero2, numero3; // Tmb como vemos aca se puede declarar varias variables 
+
+let nume1 = 12,  num2 = 10; // tmb se puede dar valores a varias variables en one line
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
 /* 

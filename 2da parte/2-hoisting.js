@@ -12,3 +12,7 @@ var nombre = "Andres"
 var nombre = undefined
 console.log(nombre) // undefined
 nombre = "Andres"
+
+console.log(name) // como dijimos antes esto sucedia mucho en old versions ya que solo aplica para el "var"
+let name = "juan" // pero como aca/ahora se usa let y const el hoisting no aplica y envez de retornar
+                  // "undefined" nos retorna un error 
