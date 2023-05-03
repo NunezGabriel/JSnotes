@@ -1,6 +1,31 @@
-//COERCION
+//COERCION Y CONCATENCAION 
 
 /////////////////////////////////////////////////////////
+
+//CONCATENACION => Esto es unir textos
+
+// con (+) 
+"hola" + "raul" //= holaraul
+/*----------------------------------------- */
+// forzando un string
+"" + 12 +3 // = "123" prq pues prq cuando se detecta string convierte todo lo restante de la linea en string
+"hola" + 4 // = "hola4"
+/*----------------------------------------- */
+// con .concat() 
+"12".concat(1234) // = "121234" ojo para usar concat si o si debe haber un string almenos
+/*----------------------------------------- */
+// Con el operador Literal |LA MEJOR|
+edad = 12
+console.log(`soy juan y tengo ${edad} años`)
+//Tmb usando `` podemos concatenarle html ejm
+texto = `
+<h1>Hola</h1>
+<p>>Mundo</p>
+`
+doccument.write(texto)
+
+/////////////////////////////////////////////////////////
+//COERCION
 
 /*
 Como vimos antes js es un lenguaje debilmente tipado osea que a diferencia de .py u otros lenguajes fuertemente tipados al hacer operaciones con datos de distintos tipos como string con number no nos da error si no que en caso de string multiplicado por number el lenguaje convierte el string en numero para asi poder o operarlo ejmplos:
