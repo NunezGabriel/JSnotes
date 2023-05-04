@@ -6,7 +6,7 @@
   <li>1raParte: Variables-Funciones</li>
   <li>2daParte: Scope-hoisting-Coercion&Concatenacion-Operators</li>
   <li>3raParte: Condicionales-Switch</li>
-  <li>4taParte: Arrays</li>
+  <li>4taParte: Arrays-ArraysMethods</li>
   <li>5taParte: Bucles</li>
   <li>6taParte: POO (uncomplete)</li>
   <li>7maParte: Manipulaion del DOM ⭐️</li>
