@@ -48,3 +48,20 @@ while (edad > 18 || edad <= 0){
 }
 
 console.log("Gracias por ingresar al programa")
+
+////////////////////////////////////////////////////////
+
+// * DO WHILE *
+
+/*
+    es distinto al while ya que primero se ejecuta y despues se pregunta(validacion de condicion)
+    ejm:
+*/
+
+nummber = 0
+
+do{
+    number++
+    console.log(number)
+}   
+while(number<5)
