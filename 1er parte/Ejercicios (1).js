@@ -27,3 +27,19 @@ let empates = parseInt(prompt('ingrese los empates: '))
 puntos_totales = (victorias *3) +  empates;
 
 imprimir(`el total de puntos del equipo es: ${puntos_totales}`)
+
+//PREGUNTAR DIA 10 VECES (ONLY WEB)
+
+function pregunta(name){
+    for(let i =0; i<10;i++){
+        let answer = prompt(`hola ${name}, como fue tu dia`);
+        if(answer === "bien"){
+            alert("Que bien");
+        }
+        else{
+            alert("Que mal");
+        }
+    }
+}
+
+pregunta("pepe")

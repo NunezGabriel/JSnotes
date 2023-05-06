@@ -40,37 +40,41 @@ let mmiFuncion = function(c,d){
 
 //Este tipo de funcion se llama igual que las Declarativas
 
+/////////////////////////////////////////////////////////////////////////////////////
+//* RETURN *
 
-//////////////////////////////////MAS EJEMPLOS/////////////////////////////////////////
-
-function saludar(nombre){
-    console.log("hola", nombre);
-}
-saludar("Andre")//hola Andre
-
-function calculadora(valor1, valor2){
-    console.log(valor1+valor2)
-    console.log(valor1-valor2)
-    console.log(valor1*valor2)
-    console.log(valor1/valor2)
-}
-calculadora(34,12)
 /*
-46
-22
-408
-2.8333333333333335 */
+    El return es lo que una funcion o un bloque va a retornar/devolver un valor .. a diferencia de 
+    rubyu aca no te retorna la ultima linea si no usas return aca si o si debes usar return
+    para devolver un valor 
+*/
+/////////////////////////////////////////////////////////////////////////////////////
 
-function saludarCarreras(carrera){
-    console.log(`Hola ${carrera}`)
-}
-saludarCarreras('medicina')// Hola medicina
+//🔴 * ARROW FUNCTIONS *
 
-function restar(x,y){
-    return x-y;
+/*
+    esto que vemos abajo es una funcion flecha en vez de usar el function creamos
+    una variable que va a tener el nombre y ponemos ()=> de ahi su nombre arrow function
+    Osea el "function" se convierte en una flechita y se pone despues 
+*/
+const saludar = (nombre)=>{
+    console.log(`hola ${nombre}`)
 }
-let resultado = restar(12, 13)
-console.log(resultado)//-1
+/*
+    Esta es la 3ra formma de crear funcione y funciona exactamente igual y de hecho 
+    esta es la mejor forma de crearlas ya que tiene veneficios como:
+
+    . si solo estamos usando un parametro NO hace falta ponerle "()"
+        const saludar = nombre =>{
+            console.log(`hola ${nombre}`)
+        }
+
+    . si solo tenemos una exprecion podemos simplificarlo en una linea osea no es necesario usar "{}"
+        const saludar = nombre => console.log(`hola ${nombre}`)
+       aparte tmb aca la expresion se retorna automaticamente no tenemos que usar return...como ruby
+    
+    . Tiene mas veneficios PERO eso lo veremos en un apartado PROPIO de arrow functions mas adelante 
+*/
 
 ////////////////////////////////////////////////////////////////////////////////
 
