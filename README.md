@@ -8,7 +8,7 @@
   <li>3raParte: Condicionales-Switch</li>
   <li>4taParte: Arrays-ArraysMethods</li>
   <li>5taParte: Bucles</li>
-  <li>6taParte: POO (uncomplete)</li>
+  <li>6taParte: POO</li>
   <li>7maParte: Manipulaion del DOM ⭐️</li>
 </ul>
 
