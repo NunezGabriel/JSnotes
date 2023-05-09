@@ -1,5 +1,7 @@
 let frutas = ['naranja', 'platano']
 
-frutas.push('pera')
+let verduras = ['pepino', 'cebolla', 'brocoly']
 
-console.log(frutas)
+let fucion = frutas.concat(verduras)
+
+console.log(fucion)
