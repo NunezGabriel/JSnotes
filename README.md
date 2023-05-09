@@ -9,7 +9,8 @@
   <li>4taParte: Arrays-ArraysMethods</li>
   <li>5taParte: Bucles</li>
   <li>6taParte: POO</li>
-  <li>7maParte: Manipulaion del DOM ⭐️</li>
+  <li>7maParte: metodosDeCadenas</li>
+  <li>10000maParte: Manipulaion del DOM ⭐️</li>
 </ul>
 
 Estoy haciendo esto prq me gusta tener notas mas estructuradas y espero que a alguien mas ,aparte de mi, le pueda ayudar :)
