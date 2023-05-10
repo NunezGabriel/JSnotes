@@ -1,0 +1,45 @@
+//METODOS DE ARRAYS
+///////////////////////////////////////////////////
+/*
+    Estos metodos NO se pueden usar en strings
+    solo en arrays a difierencia de los metodos de strings
+    que si se pueden usar en arrays 
+*/
+
+let nombres = ['pedro', 'maria', 'jorge'];
+let numbers = [2,4,6,7,4,5,1]
+///////////////////////////////////////////////////
+// * METODOS TRANSFORMADORES *  =>  Mofican al Array
+
+nombres.pop() // elimina el ultimo elemento del array y lo devuelve
+nombres.shift() // elimina el primer elemento del array y lo devuelve
+nombres.push('rodrigo') // agrega un elemento al array al final y devuelve la nueva longitud del array
+nombres.reverse() // invierte el orden de los elementos del array
+nombres.unshift('juan','raul') // agrega uno o + elementos al inicio del array y devuelve la nueva longitud del array
+numbers.sort()//ordena los elementos de un array localmente y lo devuelve ordenado esto basandolo en el orden lexicografico(orden alfabetico y numeral) => output: [1,2,4,4,5,6,7]
+
+numbers.splice(1,3,'pez')//toma 3 parametros el primero el index donde comienza y el segundo cuantos elementos quieres que 'borre' y el tercero en adelante es por que quieres remplazar los elementos borrados ejemplo.. => output:[2,'pez',4,5,1] 🔴 si no pones el tercer parametro no agrega nada
+
+///////////////////////////////////////////////////
+// * METODOS ACCESORES * => Crean un nuevo Array o hacen algo con el array pero sin modificarlos
+
+let resultado = nombres.join('-')//une los elemetnos del array con el separador que le pasemos por parametro en este caso los une con un '-'=> oputput: 'pedro-maria-jorge'
+
+let resultado2 = nombres.slice(0,2)//devuelve un array que toma los elemetnos de nombre desde el elemento 0 al elemento 2 ... el elemento 2 como tal no esta incluido
+
+///////////////////////////////////////////////////
+// * METODOS DE REPETICION * 
+
+numbers.filter((numero) => console.log(`${numero} sal`)) // filter es como un bucle al que se le pasa como parametro uns funcion en este caso yo le paso una arrow function pero tmb puedes pasarle una que tenga la keyword function... lo que hace aca filter es que por cada elemento el cual es tomado por el parametro numero me lo concatene con la palabra sal
+
+numbers.forEach((numero) => console.log(`${numero} sal`)) // hace lo mismo que filter pero filter es mas completo ya que filter si hay una CONDICION nos retorna los elementos filtrados en un array
+
+numbers.map((numero)=>numero*2) // map nos retorna un array como tal de las instrucciones que esten dentro de la funcion ... el mas god de los 3
+
+/////////////////////////////////////////////////
+
+// RECAPITULACION
+
+/*
+    En resumen, la diferencia principal entre map() y filter() o forEach() es que map() crea un nuevo array con elementos transformados, mientras que filter() filtra los elementos según una condición y forEach() solo ejecuta una función en cada elemento sin modificar el array original.
+*/
