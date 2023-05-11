@@ -10,6 +10,7 @@
   <li>5taParte: Bucles</li>
   <li>6taParte: POO</li>
   <li>7maParte: MetodosPropiosDeJS</li>
+  <li>8vaParte: Console</li>
   <li>10000maParte: Manipulaion del DOM ⭐️</li>
 </ul>
 
