@@ -3,7 +3,10 @@
 /*
     Estos metodos NO se pueden usar en strings
     solo en arrays a difierencia de los metodos de strings
-    que si se pueden usar en arrays 
+    que si se pueden usar en arrays
+    IMPORTANTE: aca no veremos todos los metodos ya que osn VARIOS pero
+    si quieres verlos y es mejor que estas notas lee en la documentacion
+    link aqui: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 */
 
 let nombres = ['pedro', 'maria', 'jorge'];
