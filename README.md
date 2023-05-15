@@ -11,7 +11,7 @@
   <li>6taParte: POO</li>
   <li>7maParte: MetodosPropiosDeJS</li>
   <li>8vaParte: Console</li>
-  <li>10000maParte: Manipulaion del DOM ⭐️</li>
+  <li>9naParte: Manipulaion del DOM ⭐️</li>
 </ul>
 
 Estoy haciendo esto prq me gusta tener notas mas estructuradas y espero que a alguien mas ,aparte de mi, le pueda ayudar :)

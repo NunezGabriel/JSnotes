@@ -29,7 +29,7 @@ const number1 = document.querySelector('#mat1')
 const number2 = document.querySelector('#mat2')
 const btnCalculador = document.querySelector('#btnmat')
 const answer = document.querySelector('#Answer')
-btnCalculador.addEventListener('click', aelclickFunction)/*aca tenemos el poderoso addEventListener lo que ase es que al elemetno que le pongamos
+btnCalculador.addEventListener('click', aelclickFunction)/*aca tenemos el poderoso addEventListener lo que hace es que al elemetno que le pongamos
 le agreaga un "escuchador de eventos" osea que va a pasar algo cuando suceda un evento -> en terminos mas tecnicos es que va a
 pasar una funcion cuando suceda un evento ambos (el evento y la funcion) son pasadas como parametros par el metodo addEventListener
 osea tiene esta sintaxis: btnCalculador.addEventListener('evento' , -funcion-) a diferenfia del modo de html al poner la funcion
