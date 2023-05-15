@@ -72,7 +72,7 @@ game(a, b)
 /////////////////////////////////////////////////////
 
 /*
-OPERADOR TERNARIO
+OPERADOR TERNARIO O OPERADOR CONDICIONAL
 Tmb tenemos algo llamado operador ternario que sirve para generar un if y un else en una sola linea y fuciona asi 
 
 -condicion- ? -la instruccion que tendra si es verdadero- : -la instruccion que tendra si es falso-  
@@ -85,3 +85,11 @@ let y = 4
 
 x == 7? console.log('es verdadero') : console.log('es falso')
 //output: es falso
+
+// otro ejem
+let z = 4 >= y? console.log('si') : console.log('no');
+//output: true
+
+//otro ejem
+y == 4? console.log('si') : false? console.log('otro si') : console.log('otro no') //=> no es muy recomendable
+//output: otro si 
