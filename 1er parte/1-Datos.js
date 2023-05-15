@@ -13,7 +13,7 @@ e=undefined /*undefined */
 /*undefined: indica un valor no definido. esto se puede usar cuando aun no se a definido una variable pero tiene que tener contenido entonces tenemos usamos este dato (no es recomendado usar) */
 
 /*Datos no primitivos*/
-
+//alert('hola') => esto es una funcion del navegador no de JS
 console.log("hola")/*function */
 {tipo:"objeto"}/*object */
 f=[1,2,3,"hola"]//es un array el cual tmb es considerado de tipo objeto
@@ -26,7 +26,7 @@ f=[1,2,3,"hola"]//es un array el cual tmb es considerado de tipo objeto
     Tipos de datos PRIMITIVOS
     . Number => almacena numeros
     . String => para texto representar con "", '' o ``
-    . Null => cuando un dato no existe
+    . Null => cuando un valor no existe
     . Undefined => cuando no se le asigna valor a una variable
     . Boolean => asigna un valor logico/binario True o False
     . Nan => Not a Number se da mayormente en operaciones ejm 4 * 'juan'
