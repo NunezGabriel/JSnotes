@@ -26,5 +26,5 @@ document.write(parrafoQSA)
     - mi favorito entre todos es querySelector ya que usa la nomenclatura de css 
     - getElementById solo funciona para traer elementos por su id si el elemento tiene una clase y no un id no funcionara
     - getElementById al hablar de IDs es mas rapido(efectivo) que querySelector
-    - todos estos metodos al 'imprimirlos' nos retornan un objeto mas no el valor del elemento osea que si tenemos un <p>hola</p> no nos va dar holanos va a dar un [object HTMLParagraphElement] para que obtener ese hola usaremos otro metodo que lo vemos en el siguiente archivo: 
+    - todos estos metodos al 'imprimirlos' nos retornan un objeto mas no el valor del elemento osea que si tenemos un <p>hola</p> no nos va dar holanos va a dar un [object HTMLParagraphElement] para que obtener ese hola usaremos otro metodo que lo vemos en el siguiente archivo
 */
