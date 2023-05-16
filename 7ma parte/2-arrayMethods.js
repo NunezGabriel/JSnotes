@@ -13,7 +13,6 @@ let nombres = ['pedro', 'maria', 'jorge'];
 let numbers = [2,4,6,7,4,5,1]
 ///////////////////////////////////////////////////
 // * METODOS TRANSFORMADORES *  =>  Mofican al Array
-
 nombres.pop() // elimina el ultimo elemento del array y lo devuelve
 nombres.shift() // elimina el primer elemento del array y lo devuelve
 nombres.push('rodrigo') // agrega un elemento al array al final y devuelve la nueva longitud del array
@@ -33,11 +32,11 @@ let resultado2 = nombres.slice(0,2)//devuelve un array que toma los elemetnos de
 ///////////////////////////////////////////////////
 // * METODOS DE REPETICION * 
 
-numbers.filter((numero) => console.log(`${numero} sal`)) // filter es como un bucle al que se le pasa como parametro uns funcion en este caso yo le paso una arrow function pero tmb puedes pasarle una que tenga la keyword function... lo que hace aca filter es que por cada elemento el cual es tomado por el parametro numero me lo concatene con la palabra sal
+numbers.filter((element,index,array) => element == 4) // filter es como un bucle que me va a traer el array con los elementos selecionados osea un array con puro 4 dependiendo cuantos 4 haya en el array original...el element,index,array son callbacks algo que veremos ams adelante
 
-numbers.forEach((numero) => console.log(`${numero} sal`)) // hace lo mismo que filter pero filter es mas completo ya que filter si hay una CONDICION nos retorna los elementos filtrados en un array
+numbers.forEach((element,index,array) => console.log(`${element} sal`)) // hace lo mismo que filter pero filter es mas completo ya que filter si hay una CONDICION nos retorna los elementos filtrados en un array
 
-numbers.map((numero)=>numero*2) // map nos retorna un array como tal de las instrucciones que esten dentro de la funcion ... el mas god de los 3
+numbers.map((element,index,array)=>element*2) // map nos retorna un array como tal de las instrucciones que esten dentro de la funcion ... el mas god de los 3
 
 /////////////////////////////////////////////////
 
