@@ -43,5 +43,7 @@ numbers.map((element,index,array)=>element*2) // map nos retorna un array como t
 // RECAPITULACION
 
 /*
-    En resumen, la diferencia principal entre map() y filter() o forEach() es que map() crea un nuevo array con elementos transformados, mientras que filter() filtra los elementos según una condición y forEach() solo ejecuta una función en cada elemento sin modificar el array original.
+    - En resumen, la diferencia principal entre map() y filter() o forEach() es que map() crea un nuevo array con elementos transformados, mientras que filter() filtra los elementos según una condición y forEach() solo ejecuta una función en cada elemento sin modificar el array original.
+
+    -los METODOS DE REPETICION tienen como parametros de la funcion pasada callbacks
 */
