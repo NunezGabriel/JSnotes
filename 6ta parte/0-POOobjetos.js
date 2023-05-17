@@ -88,3 +88,29 @@ let options = {
 }
 let {title:t, heigth:h, width:w} = options // con eso de :t ponemos las propiedades de option sobre nuevas variables
 let {title:ti = 'no title', ...restOptions} = options
+
+//////////////////////////////////////////
+
+//PROGRAMACION FUNCIONAL: como veremos en js podemos usar clases como vimos en todos los lenguajes pero tmb en vez de usar clases tenemos esta forma mas clasica(antigua)que es crear 'clases' mediante funciones osea va a ser una funcion constructora que va a 'simular' el funcionamiento de una clase y se hace asi:
+
+function User(name){ //asi creamos la funcion constructora que 'simula' la clase asi que tmb podriamos instanciarla como ven el IDE nos marca a user como error ya que nos recomienda mejor usar una clase ya que es mas moderno
+    this.name = name
+    this.isAdmin = true
+
+    this.sayHi = function(){//como vemos aca a diferencia de las clases normales para crear una funcion dentro de esta funcion constructora usamos el this. el nombre del metodo y lo igualamos a una funcion
+        console.log(`my name is ${this.name}`)
+    }
+}
+
+const personaComun = new User('raul')//como vemos usamos new como si fuese una clase normal y le pasamos un valor asi que tenemos la 'clase' instanciada
+
+/*
+    RECAPITULACION:
+
+    - Los objetos como tal son muy usados 
+    - estos tienen distintos metodos o fomras para acceder a sus keys y sus values
+    - se pueden clonar o referenciar objetos hay que tener cuidado con eso
+    - el destructuring y asigment es muy usado asi que practicalo es util :)
+    - la programacion funcional osea esto de clases en funcion constructora a nivel de js no es muy usado pero algunos framworks se pegan a esta forma por eso tmb es bueno aprenderlo :)
+*/
+
