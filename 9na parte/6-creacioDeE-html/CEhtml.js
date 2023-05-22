@@ -24,7 +24,7 @@ const fragmento = document.createDocumentFragment() // aca creamos un fragmento
 
 for(let i = 0; i<20; i++){ //con este for tendriamos 20 elementos li con un texto en su interior
     const item  = document.createElement('LI')
-    item.innerHTML = 'este es un texto'
+    item.innerHTML = 'este es un texto'//esto funciona envez de text node ... se usa mas esta forma
     fragmento.appendChild(item)
 }
 //ahora vamos a meter los li al divv de nuestro html y lo hacemos asi
