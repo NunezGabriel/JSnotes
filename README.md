@@ -3,7 +3,8 @@
 * <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Template_literals">Link de documentacion oficial de JS</a>
 <h4>En este repositorio tenemos notas con ejercicios de JavaScript aca mas que todo veremos esos conceptos de Js de forma practica</h4>
 <ul>
-  <li>1raParte: Variables-Funciones</li>
+  <li>0roParte: Variables-DataType</li>
+  <li>1raParte: Funciones</li>
   <li>2daParte: Scope-hoisting-Coercion&Concatenacion-Operators</li>
   <li>3raParte: Condicionales-Switch</li>
   <li>4taParte: Arrays-ArraysMethods</li>
