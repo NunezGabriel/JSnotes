@@ -12,6 +12,8 @@
   <li>7maParte: MetodosPropiosDeJS</li>
   <li>8vaParte: Console</li>
   <li>9naParte: Manipulaion del DOM ⭐️</li>
+  <li>10maParte: JS codeado como un pro 😎</li>
+  <li>11vaParte: Advanced concepts of JS</li>
 </ul>
 
 Estoy haciendo esto prq me gusta tener notas mas estructuradas y espero que a alguien mas ,aparte de mi, le pueda ayudar :)
