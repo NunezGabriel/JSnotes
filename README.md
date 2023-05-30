@@ -4,7 +4,7 @@
 <h4>En este repositorio tenemos notas con ejercicios de JavaScript aca mas que todo veremos esos conceptos de Js de forma practica</h4>
 <ul>
   <li>0roParte: Variables-DataType</li>
-  <li>1raParte: Funciones</li>
+  <li>1raParte: Funciones->completarFunciones(3)</li>
   <li>2daParte: Scope-hoisting-Coercion&Concatenacion-Operators</li>
   <li>3raParte: Condicionales-Switch</li>
   <li>4taParte: Arrays-ArraysMethods</li>
@@ -14,7 +14,7 @@
   <li>8vaParte: Console</li>
   <li>9naParte: Manipulaion del DOM ⭐️</li>
   <li>10maParte: JS codeado como un pro 😎</li>
-  <li>11vaParte: Advanced concepts of JS</li>
+  <li>11vaParte: Advanced concepts of JS ->completarAsyn..programaing</li>
 </ul>
 
 Estoy haciendo esto prq me gusta tener notas mas estructuradas y espero que a alguien mas ,aparte de mi, le pueda ayudar :)

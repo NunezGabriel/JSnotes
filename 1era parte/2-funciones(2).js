@@ -4,16 +4,12 @@
 */
 ////////////////////////////////////////////////////////////////////////////////
 //RECURSIVIDAD
-//la funcion se llama asi misma por un numero indefinido de veces (no se usa en el dia a dia) ya que sobrecarga la memoria del proyecto mas que todo lo usan los tryhards
+//la funcion se llama asi misma por un numero indefinido de veces (no se usa en el dia a dia) ya que sobrecarga la memoria del proyecto mas que todo lo usan los tryhards PERO es muuuuy usado en machine lernig por si maybe en algun momento te interesa
 
-function pow(x,n){
-    if (n==1){
-        
-    }
-    return x
-}
+//video muy GOOOOOD explicando recursividad
+// https://www.youtube.com/watch?v=-aw09mJeGA0&list=LL&index=7&t=6s&ab_channel=Programaci%C3%B3nAccesible
 
-////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
 //REST PARAMS AND SPREAD SINTAX
 
 /*
