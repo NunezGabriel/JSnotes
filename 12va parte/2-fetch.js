@@ -10,6 +10,7 @@ async function getPokemon(){
     let response = await fetch(baseUri) // usamos la palabra fetch para traer los datos de la API pero OJO lo que trae lo trae en un formato texto sin procesar, esto quiere decir que no vas a ver los datos como tal si no veras texto que contenga cosas asi [obetoHead],etc. Para mirar los datos como tal debemos usar el metoso json() asi:
     let result = await response.json()
     console.log(result)
+
 }
 getPokemon()
 
@@ -18,7 +19,6 @@ getPokemon()
 //RECUERDA el fetch es para poder interactuar con la API en general usando GET, POST, etc ... y eso es lo que vamos a ver ahora. asi que vamos a complicarnos un poco mas 
 
 /////////////////////////////////////////////////////////
-// FETCH CON GET
 
 /*
     ahora veremos fetch un poco mas profundo, primero fetch soporta 2 parametros es primero que es requerido es la url, el segundo no es requerido es opcional dependiendo de que quieras hacer, el parametro seria extra sobre que tipo de peticion vas a hacer que datos vas a mandar si quieres enviar datos, etc tiene esta sintaxis
@@ -37,7 +37,7 @@ fetch(baseUri, {
     })
 })
 
-//por defecto esa estructura que usamos no es requerida mucho ya que comunmente solo se usa el GET pero y bueno si es GET no es necesario poner tanta estructura 
+//por defecto esa estructura que usamos no es requerida mucho ya que comunmente solo se usa el GET pero y bueno si es GET no es necesario poner tanta estructura... para aterrizar mejor lo visto anterior de la estructura fecth chequea este video: https://www.youtube.com/watch?v=aKPcs-EIzZI&ab_channel=LeonidasEsteban
 
 /*
     REACAPITULACION AND EXTRA DATA
@@ -46,6 +46,7 @@ fetch(baseUri, {
     - la url que le pasamos a fetch no necesariamente siempre va a ser una API puede ser nu archivo json que tengas en tu local host como ./localSotrage.js 
     - los metodo que puedes usar en method: son varios pero lo mas comunes son: GET,POST,PUT,DELETE
     - el metodo que JSON.stringify y otros mas los veremos mejor en el modulo de JSON que justo es el que sigue :)
+    -json() lo que hace es que se utiliza para extraer los datos de una respuesta en formato JSON a su vez tmb hace un parse por defecto asi que ya no seria necesario hacer el metodo JSON.parse() hay funciones distintas aparte de .json() que hacen otras cosas pero esas depende de que archivo es con es que estas interactuando por ejemplo si le hago fetch a una imagen no usraia .json() ya que la imagen no es uin archivo json si no usaria este metodo .blob() para extrar los datos de la imagen pero estos metodos extra no son muy usados.
 */
 
 
