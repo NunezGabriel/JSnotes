@@ -61,7 +61,14 @@ async function hitAPI() {
 }
 
 hitAPI();
-
+// estamos usando console.log() dentro de la funcion por eso al llamarla funciona pero si en vez de hacer console.log() hacemos un return esto nos retornaria igualmente una promesa asi qeu para solucionarlo podemos meter el llamado de la funcion dentro otra funcion que sea async y ya dentro trabajar con el return de la funcion primera pero lo mas comun eds que al llamado de la fucion le hagamso un then con lo que querramos que imprima es ams facil seria asi:
+async function golAPI(){
+   let response = await fetch(url)
+   let result = await response.json();
+   return result
+}
+golAPI()
+  .then((response) => console.log(response)) //sin el then es una promesa y como vimos para decirle 'aguanta' a una promesa usamos .then()
 /*
     RECAPITULACION Y DATA EXTRA
     - Un callback es una funcion que llama a otra puede ser por parametro o simplemente llamarla dentro de la fucion
