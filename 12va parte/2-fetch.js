@@ -6,13 +6,13 @@
 
 const baseUri = 'https://rickandmortyapi.com/api/character/2' // aca almacenamos el link de los datos traidos de la API para poder trabajar con el 
 
-async function getPokemon(){
+async function getMorty(){
     let response = await fetch(baseUri) // usamos la palabra fetch para traer los datos de la API pero OJO lo que trae lo trae en un formato texto sin procesar, esto quiere decir que no vas a ver los datos como tal si no veras texto que contenga cosas asi [obetoHead],etc. Para mirar los datos como tal debemos usar el metoso json() asi:
     let result = await response.json()
     console.log(result)
 
 }
-getPokemon()
+getMorty()
 
 // recuerda al momento de hacer fetch para poder interactuar con la API debemos si o si trabajar con los conceptos de programacion asincronica los cuales vimos antes en este caso estoy usando la forma de async await pero sin problemas podrias usar promises o callbacks, yo uso este prq es el que mas me gusta :) con esto tendriamos la sintaxis basica. => video para aterrizar fetch hasta ahora: https://www.youtube.com/watch?v=cjrt3NilcNw&ab_channel=ProCodeTv
 
@@ -31,7 +31,7 @@ fetch(baseUri, {
     headers: { //tenemos que especificar si o si los headers ya sea el metodo post o get si es que usamos este parametro de fetch
         'Content-type': 'aplication/json' //este es el encabezado que se le va aponer a la solicitud, Content-type en especifico es el mas usado lo que hace es que le dice a la solicitud HTTP que los datos manejados son de tipo JSON, solo le dice, NO es que los convierta ej JSON. Hay muchos mas headers pero en este caso solo usaremos este.
     },
-    body: JSON.stringify({//el body solo va cuando quieres mandar un dato a la API si fuese de metodo get no seria necesario poner body.... aca lo que hacemos es convertir en JSON el objeto javascript que estamos mandando esto lo hacemos para que la API o archivo JSON recivan correctamente los datos 
+    body: JSON.stringify({//el body solo va cuando quieres mandar un dato a la API si fuese de metodo get no seria necesario poner body.... aca lo que hacemos es convertir en string con formato JSON el objeto javascript que estamos mandando esto lo hacemos para que la API o archivo JSON recivan correctamente los datos,  
         name: 'messi',// y bueno dentro ponemos los datos que vamos a mandar a la API
         age: 35
     })

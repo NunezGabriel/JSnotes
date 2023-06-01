@@ -27,7 +27,7 @@ function saveLocalStorage(){
     }
     localStorage.setItem('persona', person)//y con esto lo guardamos igual en el local storage :D PERO una cosa asi se va a ver el el localS: persona | [object Object] , muchos dirian a bueno pues se grabo bien prq lo que estoy guardando es un objeto PERO la unica condicion qeu ustedes tienen que tener en el local storage es que solo almacena strings asi que haciendolo asi ustedes literal van a obtener [object Object] y no van a poder trabajar con ese objeto, Asi que ustedes diran "vaya entonces el localStroga es inutil" Pero hay una manera de que podamos grabar ese objeto y es asi 
 
-    localStorage.setItem('person', JSON.stringify(person)) //para grabaer el objeto debemos usar la funcion de JSON stringify() y con esto el [object Object] se convierte en JSON mostrando todos los datos del objeto, y esa el la forma en la que puedes trabajar objetos grandes con local storage, vista del localS: person | {name: "Fernando", age: 31, correo: "fer@gmail.com", coords: {lat: 10, long: -10}}
+    localStorage.setItem('person', JSON.stringify(person)) //para grabaer el objeto debemos usar la funcion de JSON stringify() y con esto el [object Object] se convierte en string con formato JSON, mostrando todos los datos del objeto, y esa el la forma en la que puedes trabajar objetos grandes con local storage, vista del localS: person | {name: "Fernando", age: 31, correo: "fer@gmail.com", coords: {lat: 10, long: -10}}
 }
 saveLocalStorage()
 
@@ -62,12 +62,21 @@ function obtainLS(){
     }
 
 }
-// y con eso tendriamos todo lo que hay que saber del localStorage ... mira este video por si tienes dudas: https://www.youtube.com/watch?v=hb8O0qRqiSk&t=6s&ab_channel=FernandoH
+
+obtainLS()
+// y con eso tendriamos todo lo que hay que saber del localStorage ... mira este video por si tienes dudas: https://www.youtube.com/watch?v=hb8O0qRqiSk&t=6s&ab_channel=FernandoH  o tmb mira este si quieres: https://www.youtube.com/watch?v=ZlpA2hez92Y&ab_channel=UskoKruM2010
 
 
 /*
     Recapt and Extra Data
     
     -El local storage no se ve aca en la consola de JS ya que es un metodo del navegador por ene solo se puede ver en las chromeDevTools osea en la consola del navegador haces click a las >> que estan a lado de sourses que esta alado de console y ya vas a ver la opcion para mirar el local storage
-    
+    - hay otros metodos y formas de usar metodos anteriores ejm:
+
+        . Para nosotros mandar un elemento al local storage ponemos localStorage.setItem('<identificador>',<lo que vamos a mandar>) pero tmb podemos mandarlo asi:
+        localStorage.<identificador> = '<lo que vamos a mandar>'
+        . Tenemos tmb un metodo para eliminar un elemnto del localStorage que es:
+        localStorage.removeItem('<identificador de lo que vamos a borrar>')
+        . tmb tenemos otro metodo pero este es para limpiar el local storage osea eliminar todos los datos de nuestro localS y asi tenerlo limpio y es:
+        localStorage.clear()
 */
