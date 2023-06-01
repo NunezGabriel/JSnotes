@@ -45,6 +45,8 @@ sayText('this is a text')
 
 console.log('/////////////////////////////////////////')
 
+//tmb en arrow functions cuando hay solo una instruccion esta hace un return inplicito osea que no es necesario poner return
+
 ///////////////////////////////////////////////////////
 
 //Los returns pueden retornar atributos/metodos ósea funcionan como objetos ejem de keepable proyect
