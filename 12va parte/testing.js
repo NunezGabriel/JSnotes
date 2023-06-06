@@ -132,4 +132,3 @@ test('resta de 2 numeros', ()=>{ // lo mismo aca con resta
 
     - DATO IMPORTANTE DEL ARCHIVO: los bloques de codigo que estan dentro de las filas de "📌" puedes descomentarlos para probarlos ... estan comentados prq malogran el flujo de las ultimas funciones ya que lanzan errores con throw y paran el programa ... lo que no esta descomentado son las funciones que dijimos que ya son el flujo correcto y goooood de testing...solo 3 bloques de codigo estan comentados con el  "📌" 
 */
-//despues de ver el fujo basico de testing y el testing usando solo JS en local continuamos con lo que dijimos de frontend con jest
