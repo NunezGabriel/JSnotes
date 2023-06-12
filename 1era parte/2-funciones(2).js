@@ -10,7 +10,7 @@
 // https://www.youtube.com/watch?v=-aw09mJeGA0&list=LL&index=7&t=6s&ab_channel=Programaci%C3%B3nAccesible
 
 ///////////////////////////////////////////////////////////////////////////////
-//REST PARAMS AND SPREAD SINTAX
+//REST PARAMS AND SPREAD OPERATOR
 
 /*
     esto es para agarrar varios parametros y los convierte en un arr osea hace como que espera un arr pero en ningun momento se le pasa un array como argumento ejm 
@@ -25,8 +25,9 @@ function suma(...rest){
 suma(1,2,3,4,54,56,6,7,7,)
 /*
     otras cosas de rest ... nunca debe estar en el medio siempre al final y tmn podriamos poner (a,b,...rest) y encapsula en un array el resto de elementos menos el primero y el segundo
+    
+    video god donde se explica bien el spread operator https://www.youtube.com/watch?v=a_hye_eCULo&ab_channel=Inform%C3%A1ticaDP
 */
-
 ///////////////////////////////////////////////
 //VARIABLE SCOPE
 /*
