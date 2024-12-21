@@ -20,4 +20,4 @@
 
 Estoy haciendo esto prq me gusta tener notas mas estructuradas y espero que a alguien mas ,aparte de mi, le pueda ayudar :)
 
-<img src='./jsimage.gif'> 
+<img src='./jsimagen.gif'> 
